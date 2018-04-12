@@ -1,24 +1,14 @@
 # README
+Find the application live at [a-url-shortener.herokuapp.com](https://www.a-url-shortener.herokuapp.com)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Starting the Application
+- clone the repository and `cd` into it
+- install the dependencies: `bundle`
+- run the migrations: `rake db:migrate`
+- start the server: `rails server`
 
-Things you may want to cover:
+## Running the Tests
+- run `bundle exec rspec`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Test Coverage
+- After running the tests, to view test coverage metrics, run `open coverage/index.html`

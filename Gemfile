@@ -42,4 +42,5 @@ group :test do
   gem 'capybara', '>= 2.15', '< 4.0'
   gem 'chromedriver-helper'
   gem 'selenium-webdriver'
+  gem 'simplecov'
 end
