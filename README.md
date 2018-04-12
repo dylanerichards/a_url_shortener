@@ -1,5 +1,5 @@
 # README
-Find the application live at [a-url-shortener.herokuapp.com](https://www.a-url-shortener.herokuapp.com)
+Find the application live at [a-url-shortener.herokuapp.com](https://a-url-shortener.herokuapp.com)
 
 ## Starting the Application
 - clone the repository and `cd` into it
