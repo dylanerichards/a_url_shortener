@@ -1,2 +1,6 @@
-<h1>Urls#new</h1>
-<p>Find me in app/views/urls/new.html.erb</p>
+<%= form_tag("/shorten") do %>
+  <%= label_tag :long_url %>
+  <%= text_field_tag :long_url %>
+
+  <%= submit_tag "Shorten"%>
+<% end %>
